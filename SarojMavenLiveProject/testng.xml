@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+<listeners>
+<listener class-name="SarojTestPkg.SarojMavenLiveProject.Listeners"/>
+</listeners>
+
+  <test name="Test001">
+    <classes>
+      <class name="SarojTestPkg.SarojMavenLiveProject.AppTest"/>
+      <class name="SarojTestPkg.SarojMavenLiveProject.CoursesTab"/>
+    </classes>
+  </test> 
+  
+  <test name="Test002">
+    <classes>
+      <class name="SarojTestPkg.SarojMavenLiveProject.HomePageValidation"/>
+    </classes>
+  </test> 
+  
+  <test name="Test003">
+    <classes>
+      <class name="SarojTestPkg.SarojMavenLiveProject.LoginPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

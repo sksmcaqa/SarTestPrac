@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64335" started-at="2020-06-11T21:04:50 IST" finished-at="2020-06-11T21:05:54 IST">
+    <groups>
+    </groups>
+    <test name="Test003" duration-ms="64334" started-at="2020-06-11T21:04:50 IST" finished-at="2020-06-11T21:05:54 IST">
+      <class name="SarojTestPkg.SarojMavenLiveProject.LoginPage">
+        <test-method status="PASS" signature="preConditions()[pri:0, instance:SarojTestPkg.SarojMavenLiveProject.LoginPage@6b2ea799]" name="preConditions" is-config="true" duration-ms="49241" started-at="2020-06-11T21:04:50 IST" finished-at="2020-06-11T21:05:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="logIn()[pri:1, instance:SarojTestPkg.SarojMavenLiveProject.LoginPage@6b2ea799]" name="logIn" duration-ms="11280" started-at="2020-06-11T21:05:39 IST" finished-at="2020-06-11T21:05:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="loginInformatioin(java.lang.String, java.lang.String)[pri:2, instance:SarojTestPkg.SarojMavenLiveProject.LoginPage@6b2ea799]" name="loginInformatioin" duration-ms="1903" started-at="2020-06-11T21:05:51 IST" data-provider="getData" finished-at="2020-06-11T21:05:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName0001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password0001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInformatioin -->
+        <test-method status="PASS" signature="loginInformatioin(java.lang.String, java.lang.String)[pri:2, instance:SarojTestPkg.SarojMavenLiveProject.LoginPage@6b2ea799]" name="loginInformatioin" duration-ms="604" started-at="2020-06-11T21:05:53 IST" data-provider="getData" finished-at="2020-06-11T21:05:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName0002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password0002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInformatioin -->
+        <test-method status="PASS" signature="loginForgotPassword()[pri:3, instance:SarojTestPkg.SarojMavenLiveProject.LoginPage@6b2ea799]" name="loginForgotPassword" duration-ms="138" started-at="2020-06-11T21:05:53 IST" finished-at="2020-06-11T21:05:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForgotPassword -->
+        <test-method status="PASS" signature="tearDownOpenBrowsers()[pri:0, instance:SarojTestPkg.SarojMavenLiveProject.LoginPage@6b2ea799]" name="tearDownOpenBrowsers" is-config="true" duration-ms="1145" started-at="2020-06-11T21:05:53 IST" finished-at="2020-06-11T21:05:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownOpenBrowsers -->
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.LoginPage -->
+    </test> <!-- Test003 -->
+    <test name="Test001" duration-ms="62251" started-at="2020-06-11T21:04:50 IST" finished-at="2020-06-11T21:05:52 IST">
+      <class name="SarojTestPkg.SarojMavenLiveProject.CoursesTab">
+        <test-method status="PASS" signature="preConditions()[pri:0, instance:SarojTestPkg.SarojMavenLiveProject.CoursesTab@2a65fe7c]" name="preConditions" is-config="true" duration-ms="44619" started-at="2020-06-11T21:04:50 IST" finished-at="2020-06-11T21:05:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="courseNavigationTab()[pri:1, instance:SarojTestPkg.SarojMavenLiveProject.CoursesTab@2a65fe7c]" name="courseNavigationTab" duration-ms="5547" started-at="2020-06-11T21:05:35 IST" finished-at="2020-06-11T21:05:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseNavigationTab -->
+        <test-method status="PASS" signature="allCoursesCount()[pri:2, instance:SarojTestPkg.SarojMavenLiveProject.CoursesTab@2a65fe7c]" name="allCoursesCount" duration-ms="7274" started-at="2020-06-11T21:05:40 IST" finished-at="2020-06-11T21:05:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCoursesCount -->
+        <test-method status="PASS" signature="searchCourse()[pri:3, instance:SarojTestPkg.SarojMavenLiveProject.CoursesTab@2a65fe7c]" name="searchCourse" duration-ms="2076" started-at="2020-06-11T21:05:48 IST" finished-at="2020-06-11T21:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCourse -->
+        <test-method status="PASS" signature="tearDownOpenBrowsers()[pri:0, instance:SarojTestPkg.SarojMavenLiveProject.CoursesTab@2a65fe7c]" name="tearDownOpenBrowsers" is-config="true" duration-ms="2548" started-at="2020-06-11T21:05:50 IST" finished-at="2020-06-11T21:05:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownOpenBrowsers -->
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.CoursesTab -->
+    </test> <!-- Test001 -->
+  </suite> <!-- Suite -->
+</testng-results>

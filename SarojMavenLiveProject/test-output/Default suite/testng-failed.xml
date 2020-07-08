@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="SarojTestPkg.SarojMavenLiveProject.LoginPage">
+        <methods>
+          <include name="loginInformatioin" invocation-numbers="0 1"/>
+          <include name="logIn"/>
+          <include name="loginForgotPassword"/>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.LoginPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

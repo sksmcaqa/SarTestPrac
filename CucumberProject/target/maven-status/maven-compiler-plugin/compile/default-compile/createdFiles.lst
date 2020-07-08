@@ -1,0 +1,5 @@
+CucumberJavaPkg\CucumberProject\App.class
+PageObject\HomePage.class
+PageObject\KartPage.class
+PageObject\CheckOutPage.class
+CucumberJavaPkg\CucumberProject\Base.class

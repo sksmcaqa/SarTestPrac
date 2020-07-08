@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="SarojTestPkg.SarojMavenLiveProject.Listeners"/>
+  </listeners>
+  <test name="Test003(failed)" parallel="tests">
+    <classes>
+      <class name="SarojTestPkg.SarojMavenLiveProject.LoginPage">
+        <methods>
+          <include name="loginInformatioin" invocation-numbers="0 1"/>
+          <include name="logIn"/>
+          <include name="loginForgotPassword"/>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.LoginPage -->
+      <class name="SarojTestPkg.SarojMavenLiveProject.HomePageValidation">
+        <methods>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.HomePageValidation -->
+      <class name="SarojTestPkg.SarojMavenLiveProject.CoursesTab">
+        <methods>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.CoursesTab -->
+    </classes>
+  </test> <!-- Test003(failed) -->
+  <test name="Test001(failed)" parallel="tests">
+    <classes>
+      <class name="SarojTestPkg.SarojMavenLiveProject.LoginPage">
+        <methods>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.LoginPage -->
+      <class name="SarojTestPkg.SarojMavenLiveProject.HomePageValidation">
+        <methods>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.HomePageValidation -->
+      <class name="SarojTestPkg.SarojMavenLiveProject.CoursesTab">
+        <methods>
+          <include name="searchCourse"/>
+          <include name="courseNavigationTab"/>
+          <include name="allCoursesCount"/>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.CoursesTab -->
+    </classes>
+  </test> <!-- Test001(failed) -->
+  <test name="Test002(failed)" parallel="tests">
+    <classes>
+      <class name="SarojTestPkg.SarojMavenLiveProject.LoginPage">
+        <methods>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.LoginPage -->
+      <class name="SarojTestPkg.SarojMavenLiveProject.HomePageValidation">
+        <methods>
+          <include name="homePageNavigationBar"/>
+          <include name="homePageNavigationBarCount"/>
+          <include name="homePageText"/>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.HomePageValidation -->
+      <class name="SarojTestPkg.SarojMavenLiveProject.CoursesTab">
+        <methods>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- SarojTestPkg.SarojMavenLiveProject.CoursesTab -->
+    </classes>
+  </test> <!-- Test002(failed) -->
+</suite> <!-- Failed suite [Suite] -->
